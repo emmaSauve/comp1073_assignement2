@@ -1,0 +1,36 @@
+body{ /* add google fonts and make a border around the items inside of the body */
+    font-family: "EB Garamond", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    text-align: center;
+    line-height: 2;
+    font-size: 25px;
+    border: solid white;
+}
+
+input[type=number]:focus { /* chnage the border of the input box when in focus */
+    border: 3px solid #75caff;
+}
+
+button{ /* add font and background color to buttons and make them boxes */
+    background-color: rgb(255, 255, 255); 
+    border: block;
+    color: rgb(0, 0, 0);
+    padding: 15px 32px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: "EB Garamond", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    text-align: center;
+}
+ 
+.randColor:hover{ /*  create a gradient over the random box when hovered over */
+    background-image: linear-gradient(rgb(111, 224, 224), rgb(255, 248, 185));
+}
+
+p{
+    font-weight: 600;
+    font-size: 25px;
+}
